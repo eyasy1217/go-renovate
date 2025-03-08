@@ -1,0 +1,30 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "prHourlyLimit": 0,
+  "gomod": {
+    "postUpdateOptions": [
+      "gomodTidy"
+    ],
+    "packageRules": [
+      {
+        "matchUpdateTypes": [
+          "patch"
+        ],
+        "groupName": "Go Patch Updates",
+        "groupSlug": "go-patches",
+        "platformAutomerge": true
+      },
+      {
+        "matchUpdateTypes": [
+          "minor"
+        ],
+        "groupName": "Go Minor Updates",
+        "groupSlug": "go-minors",
+        "platformAutomerge": true
+      }
+    ]
+  }
+}
