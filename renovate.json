@@ -15,7 +15,8 @@
         ],
         "groupName": "Go Patch Updates",
         "groupSlug": "go-patches",
-        "platformAutomerge": true
+        "platformAutomerge": true,
+        "automerge": true
       },
       {
         "matchUpdateTypes": [
@@ -23,7 +24,8 @@
         ],
         "groupName": "Go Minor Updates",
         "groupSlug": "go-minors",
-        "platformAutomerge": true
+        "platformAutomerge": true,
+        "automerge": true
       }
     ]
   }
