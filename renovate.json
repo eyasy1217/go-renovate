@@ -4,20 +4,22 @@
     "config:recommended"
   ],
   "prHourlyLimit": 1,
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "groupName": "Patch Updates",
+      "groupSlug": "patches",
+      "platformAutomerge": true,
+      "automerge": true
+    }
+  ],
   "gomod": {
     "postUpdateOptions": [
       "gomodTidy"
     ],
     "packageRules": [
-      {
-        "matchUpdateTypes": [
-          "patch"
-        ],
-        "groupName": "Go Patch Updates",
-        "groupSlug": "go-patches",
-        "platformAutomerge": true,
-        "automerge": true
-      },
       {
         "matchUpdateTypes": [
           "minor"
