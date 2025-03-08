@@ -45,7 +45,7 @@ require (
 	github.com/spf13/viper v1.19.0
 	github.com/stretchr/testify v1.10.0
 	github.com/twpayne/go-geom v1.6.0
-	github.com/urfave/cli v1.22.16
+	github.com/urfave/cli/v2 v2.27.6
 	github.com/urfave/cli/v2 v2.27.6
 	github.com/valyala/fasthttp v1.59.0
 	github.com/valyala/fastjson v1.6.4
