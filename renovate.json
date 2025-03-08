@@ -3,7 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  "prHourlyLimit": 0,
+  "prHourlyLimit": 1,
   "gomod": {
     "postUpdateOptions": [
       "gomodTidy"
