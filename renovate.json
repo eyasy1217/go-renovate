@@ -6,6 +6,9 @@
   "prHourlyLimit": 1,
   "packageRules": [
     {
+      "matchPackagePatterns": [
+        "*"
+      ],
       "matchUpdateTypes": [
         "patch"
       ],
