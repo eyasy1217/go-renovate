@@ -33,5 +33,18 @@
         "automerge": true
       }
     ]
+  },
+  "npm": {
+    "packageRules": [
+      {
+        "matchUpdateTypes": [
+          "patch"
+        ],
+        "groupName": "Npm Patch Updates",
+        "groupSlug": "npm-patches",
+        "platformAutomerge": true,
+        "automerge": true
+      }
+    ]
   }
 }
