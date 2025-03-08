@@ -4,12 +4,14 @@ go 1.24.0
 
 require (
 	github.com/aws/aws-sdk-go v1.55.6
-	github.com/brianvoe/gofakeit/v6 v6.28.0
+	github.com/brianvoe/gofakeit/v7 v7.2.1
+	github.com/brianvoe/gofakeit/v7 v7.2.1
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/disintegration/imaging v1.6.2
 	github.com/elastic/go-elasticsearch v0.0.0
 	github.com/gin-gonic/gin v1.10.0
-	github.com/go-chi/chi v1.5.5
+	github.com/go-chi/chi/v5 v5.2.1
+	github.com/go-chi/chi/v5 v5.2.1
 	github.com/go-playground/validator v9.31.0+incompatible
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.9.0
