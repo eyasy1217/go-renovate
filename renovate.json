@@ -6,16 +6,16 @@
   "prHourlyLimit": 1,
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*"
-      ],
       "matchUpdateTypes": [
         "patch"
       ],
       "groupName": "Patch Updates",
       "groupSlug": "patches",
       "platformAutomerge": true,
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": [
+        "*"
+      ]
     }
   ],
   "gomod": {
