@@ -29,10 +29,10 @@ require (
 	github.com/nats-io/nats.go v1.39.1
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/olivere/elastic v6.2.37+incompatible
-	github.com/onsi/ginkgo/v2 v2.23.1
+	github.com/onsi/ginkgo/v2 v2.23.2
 	github.com/onsi/gomega v1.36.2
 	github.com/panjf2000/ants/v2 v2.11.2
-	github.com/redis/go-redis/v9 v9.7.1
+	github.com/redis/go-redis/v9 v9.7.3
 	github.com/robfig/cron v1.2.0
 	github.com/rs/zerolog v1.33.0
 	github.com/segmentio/kafka-go v0.4.47
