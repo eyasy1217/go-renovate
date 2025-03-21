@@ -12,7 +12,7 @@ require (
 	github.com/go-chi/chi v1.5.5
 	github.com/go-playground/validator v9.31.0+incompatible
 	github.com/go-redis/redis v6.15.9+incompatible
-	github.com/go-sql-driver/mysql v1.9.0
+	github.com/go-sql-driver/mysql v1.9.1
 	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/gonum/graph v0.0.0-20190426092945-678096d81a4b
 	github.com/gorilla/mux v1.8.1
