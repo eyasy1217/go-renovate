@@ -34,7 +34,7 @@ require (
 	github.com/panjf2000/ants/v2 v2.11.2
 	github.com/redis/go-redis/v9 v9.7.3
 	github.com/robfig/cron v1.2.0
-	github.com/rs/zerolog v1.33.0
+	github.com/rs/zerolog v1.34.0
 	github.com/segmentio/kafka-go v0.4.47
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/afero v1.14.0
